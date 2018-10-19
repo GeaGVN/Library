@@ -1,0 +1,76 @@
+TYPE "UDT_PHS_HSK_O"
+AUTHOR : GEA
+FAMILY : LIB
+NAME : 'UDT'
+VERSION : 0.4
+   STRUCT
+      RdytoUnl : Bool;
+      DneUnl : Bool;
+      Unl : Bool;
+      PhsAct : Bool;
+      Dta : Struct
+         StaEmp : Bool;
+         StaAlm : Bool;
+         StaRun : Bool;
+         StaPaused : Bool;
+         StaStopped : Bool;
+         StaStrUpDne : Bool;
+         StaStpAlm : Bool;
+         StaCStpAlm : Bool;
+         StaEmpDne : Bool;
+         StaSpare_9 : Bool;
+         StaSpare_10 : Bool;
+         StaSpare_11 : Bool;
+         StaSpare_12 : Bool;
+         StaSpare_13 : Bool;
+         StaSpare_14 : Bool;
+         CmdEmp : Bool;
+         PrdGod : Bool;
+         PrdWst : Bool;
+         PrdSam : Bool;
+         PrdSpare_3 : Bool;
+         PrdSpare_4 : Bool;
+         PrdSpare_5 : Bool;
+         PrdSpare_6 : Bool;
+         PrdSpare_7 : Bool;
+         Spare : Int;
+         ID : Int;
+      END_STRUCT;
+      NxtPhs : Struct
+         RdyToBeLo : Bool;
+         Dnelo : Bool;
+         Lo : Bool;
+         PhsAct : Bool;
+         Dta : Struct
+            StaEmp : Bool;
+            StaAlm : Bool;
+            StaRun : Bool;
+            StaPaused : Bool;
+            StaStopped : Bool;
+            StaStrUpDne : Bool;
+            StaStpAlm : Bool;
+            StaCStpAlm : Bool;
+            StaEmpDne : Bool;
+            StaSpare_9 : Bool;
+            StaSpare_10 : Bool;
+            StaSpare_11 : Bool;
+            StaSpare_12 : Bool;
+            StaSpare_13 : Bool;
+            StaSpare_14 : Bool;
+            CmdEmp : Bool;
+            PrdGod : Bool;
+            PrdWst : Bool;
+            PrdSam : Bool;
+            PrdSpare_3 : Bool;
+            PrdSpare_4 : Bool;
+            PrdSpare_5 : Bool;
+            PrdSpare_6 : Bool;
+            PrdSpare_7 : Bool;
+            Spare : Int;
+            ID : Int;
+         END_STRUCT;
+      END_STRUCT;
+   END_STRUCT;
+
+END_TYPE
+
